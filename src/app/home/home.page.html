@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Recipes
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list >
+    <ion-item  routerLink= "/recipe-detail" Button>
+      <ion-avatar slot="start">
+        <ion-img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"></ion-img>
+      </ion-avatar>
+      <ion-label>Schnitzel</ion-label>
+    </ion-item>
+    <ion-item routerLink= "/recipe-detail1" Button> 
+      <ion-avatar slot="start">
+        <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+      </ion-avatar>
+      <ion-label>Spaghettis</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
