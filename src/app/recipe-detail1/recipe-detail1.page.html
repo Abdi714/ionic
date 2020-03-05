@@ -1,17 +1,28 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
     <ion-title>Spaghettis</ion-title>
+    <ion-buttons slot="primary">
+      <ion-button>
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
-  <ion-item >
-    <ion-thumbnail slot="start">
-      <ion-img [src]=""></ion-img>
-    </ion-thumbnail>
-    <ion-label>Spaghettis</ion-label>
-  </ion-item>
+  <img src="../../assets/images/spag.jpg"/>
+  <h1>Spaghettis</h1>
+  <ion-grid>
+    <ion-item>
+      <ion-label>Spaghettis </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Meat</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Tomatoes</ion-label>
+    </ion-item>
+  </ion-grid>
 </ion-content>
